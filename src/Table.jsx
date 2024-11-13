@@ -1,7 +1,6 @@
 import './mvp.css';
 
 function Table({ headers, data }) {
-    // Konstanten für die Mappings erstellen
     const headerCells = headers.map((header, index) => (
         <th key={index}>{header}</th>
     ));
